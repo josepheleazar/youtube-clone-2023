@@ -1,0 +1,29 @@
+$primary-color: #0F0F0F;
+$primary-color2: #282828;
+$primary-color3: #181818;
+$primary-color4: #4A4A4A;
+$secondary-color: white;
+$secondary-color2: #A9A9A9;
+$secondary-color3: #303030;
+$secondary-color4: #717171;
+$link-color: #3D9BEC;
+
+html {
+  background-color: $primary-color;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+
+*::-webkit-scrollbar {
+  background-color: $primary-color;
+  width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-clip: content-box;
+  background-color: $secondary-color2;
+}

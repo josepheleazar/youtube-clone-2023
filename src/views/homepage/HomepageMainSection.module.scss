@@ -1,0 +1,23 @@
+@import '../../main.scss';
+
+.main-container__one-row {
+  border-bottom: 4px solid $primary-color4;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.95vw;
+  height: 37.5vh;
+  margin-top: 0;
+  max-width: 77.5vw;
+  padding: 0 0.5rem
+}
+
+.main-container__two-rows {
+  border-bottom: 4px solid $primary-color4;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.95vw;
+  height: 75vh;
+  margin-top: 0;
+  max-width: 77.5vw;
+  padding: 0 0.5rem 1rem 0.5rem;
+}

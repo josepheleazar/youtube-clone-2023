@@ -1,0 +1,129 @@
+@import '../../main.scss';
+
+// General Styling
+.sidebar__container--margin-top {
+  margin-top: 55px;
+}
+
+.sidebar__container {
+  background-color: $primary-color;
+  height: 92.75vh;
+  margin-top: 58px;
+  max-height: 92.75vh;
+  overflow-y: hidden;
+  padding: 0.75rem 0.75rem 0 0rem;
+  width: 11.85vw;
+}
+
+.sidebar__container:hover {
+  overflow-y: overlay !important;
+}
+
+.sidebar__button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  padding-bottom: 0.75rem;
+}
+
+.sidebar__button-group__container {
+  border-bottom: 1px solid $primary-color4;
+  border-width: thin;
+  margin-bottom: 0.75rem;
+  margin-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.sidebar__button-group__container-border-left--extended {
+  border-bottom: 1px solid $primary-color4;
+  border-width: thin;
+  margin-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.sidebar__button-with-icon {
+  align-items: center;
+  background-color: $primary-color;
+  border: 1px solid $primary-color;
+  border-radius: 12px 12px 12px 12px;
+  color: $secondary-color;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  height: 4.25vh;
+  justify-content: flex-start;
+  gap: 22.5px;
+  padding-left: 1rem;
+  z-index: 101;
+}
+
+.sidebar__button-with-icon--active {
+  align-items: center;
+  background-color: $primary-color2;
+  border: 1px solid $primary-color2;
+  border-radius: 12px 12px 12px 12px;
+  color: $secondary-color;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  font-weight: 600;
+  height: 4.25vh;
+  justify-content: flex-start;
+  gap: 22.5px;
+  padding-left: 1rem;
+  z-index: 101;
+}
+
+.sidebar__button-with-icon:hover {
+  background-color: $primary-color2;
+  border: 1px solid $primary-color2;
+}
+
+.sidebar__button-with-icon--active:hover {
+  background-color: $secondary-color3;
+  border: 1px solid $secondary-color3;
+}
+
+.sidebar-section-with-title__container > h1{
+  font-size: 16px;
+  font-weight: 600;
+  color: $secondary-color;
+  margin: 0 0 0 0.5rem;
+  padding: 0.5rem 0 0.25rem 1rem;
+  transform: scale(0.9, 1) translate(-5%, 0%);
+}
+
+// Footer Section
+.sidebar-footer__container{
+  display: flex;
+  flex-direction: column;
+  padding: 0.25rem 0.75rem 0.25rem 0;
+  gap: 10px;
+}
+
+.sidebar-footer__links-container {
+  padding: 0 0 0 1.5rem;
+}
+
+.sidebar-footer__links-container > button {
+  background-color: $primary-color;
+  border: 1px solid $primary-color;
+  color: $secondary-color2;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0 5px 0 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.sidebar-footer__copyright-container {
+  margin: 0 0 0 0;
+  padding: 0 0 0 1.5rem;
+}
+
+.sidebar-footer__copyright {
+  color: $secondary-color4;
+  font-size: 12px;
+  text-decoration: none;
+}

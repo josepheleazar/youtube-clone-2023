@@ -1,0 +1,73 @@
+@import '../../main.scss';
+
+.header__container {
+  align-items: center;
+  background-color: $primary-color;
+  display: flex;
+  gap: 10px;
+  padding: 0 0.75rem 0 1.5rem;
+  height: 5.75vh;
+  overflow-x: hidden;
+  position: fixed;
+  width: 85vw;
+}
+
+.header__container:hover {
+  overflow-x: overlay !important;
+}
+
+.header__container::-webkit-scrollbar {
+  background-color: $primary-color;
+  height: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-clip: content-box;
+  background-color: $secondary-color2;
+}
+
+.header__button-category {
+  display: flex;
+  align-items: center;
+  background-color: $primary-color2;
+  border: 1px solid $primary-color;
+  border-radius: 10px 10px 10px 10px;
+  color: $secondary-color;
+  font-size: 14px;
+  font-weight: 600;
+  height: 3.75vh;
+  padding: 0 0.8rem;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.header__button-category--active {
+  background-color: $secondary-color;
+  border: 3px solid $primary-color;
+  border-radius: 10px 10px 10px 10px;
+  color: $primary-color2;
+  font-size: 14px;
+  font-weight: 600;
+  height: 3.75vh;
+  padding: 0 0.8rem;
+  z-index: 1;
+}
+
+
+.header__button-category:hover {
+  background-color: $primary-color4;
+  transition: 0.2s ease-in;
+}
+
+.header__button-navigation {
+  align-items: center;
+  display: flex;
+  border: 1px solid $primary-color3;
+  background-color: $primary-color3;
+  border-radius: 50px 50px 50px 50px;
+  height: 70%;
+  margin: 1rem 0 1rem 0.5rem;
+  width: 42.5px;
+}

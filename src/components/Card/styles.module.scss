@@ -1,0 +1,80 @@
+@import '../../main.scss';
+
+// Horizontal Card
+.card-horizontal__container {
+  height: 320px;
+  width: 358px;
+  margin-bottom: 30px;
+}
+
+.card-horizontal__banner {
+  border-radius: 15px 15px 15px 15px;
+}
+
+.card-horizontal__second-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-horizontal__logo {
+  border-radius: 30px 30px 30px 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.card-horizontal__text-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-horizontal__title {
+  color: $secondary-color;
+  font-size: 16px;
+  line-height: 140%;
+  margin: 10px 0 0 0;
+}
+
+.card-horizontal__subtitle {
+  color: $secondary-color2;
+  font-size: 14px;
+  margin: 10px 0 0 0;
+}
+
+.card-horizontal__date-views-section {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-horizontal__date-views-section > h4 {
+  color: $secondary-color2;
+  font-size: 14px;
+  margin: 5px 0 0 0;
+}
+
+// Vertical Card
+.card-vertical__container {
+  height: 342px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.card-vertical__container > img {
+  border-radius: 15px 15px 15px 15px;
+  height: 270px;
+  width: 150px;
+}
+
+.card-vertical__container > h1 {
+  color: $secondary-color;
+  font-size: 16px;
+  line-height: 140%;
+  margin: 10px 0 0 0;
+}
+
+.card-vertical__container > h4 {
+  color: $secondary-color2;
+  font-size: 14px;
+  margin: 5px 0 0 0;
+}

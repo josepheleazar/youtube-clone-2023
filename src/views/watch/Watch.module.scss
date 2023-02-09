@@ -1,0 +1,32 @@
+@import '../../main.scss';
+
+.container__header-margin-top {
+  margin: 58px 0 0 12.5vw;
+  position: fixed;
+}
+
+.watch__container {
+  background-color: $primary-color;
+  height: 94vh;
+  overflow-x: hidden;
+  overflow-y: overlay;
+  max-height: 94vh;
+  width: 87.5vw;
+}
+
+.header__popup-content-1__container {
+  border: 1px solid $secondary-color;
+  height: 100px;
+  position: fixed;
+  top: 60px;
+  right: 60px;
+  width: 200px;
+}
+
+.header__popup-content-1__container > h1 {
+  color: $secondary-color;
+}
+
+.header__popup-content__container--hidden {
+  display: none;
+}
